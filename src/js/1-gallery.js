@@ -64,8 +64,8 @@ const images = [
     },
   ];
   
-  import SimpleLightbox from 'simplelightbox';
-  import 'simplelightbox/dist/simple-lightbox.min.css';
+  import SimpleLightbox from "simplelightbox";
+  import "simplelightbox/dist/simple-lightbox.min.css";
   
   const gallery = document.querySelector(".gallery");
   
@@ -96,4 +96,4 @@ const images = [
     captionDelay: 250,
   });
   
-  lightbox.on('show.simplelightbox');
+  lightbox.on('show.simplelightbox'); 
