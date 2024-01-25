@@ -8,4 +8,4 @@ import{S as t}from"./vendor-c9def49e.js";const i=[{preview:"https://cdn.pixabay.
       />
     </a>
   </li>`).join("");e.innerHTML=n;const c=new t(".gallery a",{captions:!0,captionType:"attr",captionsData:"alt",captionPosition:"bottom",fadeSpeed:150,captionSelector:"img",captionDelay:250});c.on("show.simplelightbox");
-//# sourceMappingURL=1-gallery-2f87f91c.js.map
+//# sourceMappingURL=1-gallery-bfc2b411.js.map
