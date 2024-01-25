@@ -1,31 +1,26 @@
 body {
-    background-color: #fff;
-    width: 1440px;
-    height: 696px;
     box-sizing: border-box;
-}
-
-.gallery-item {
-    list-style: none;
-
-}
-
-.gallery-image:hover {
-    transform: scale(1.05);
-}
-
-.gallery {
-    display: flex;
-    padding: 24px 156px;
-    flex-wrap: wrap;
-
-    justify-content: center;
-    align-items: flex-start;
+    margin: 0 auto;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-}
-
-.gallery-image {
-    width: 360px;
-    height: 200px;
-
-}
+    margin: 0 auto;
+    padding: 24px 156px;
+    justify-content: center;
+  }
+  
+  .gallery-image {
+    width: 100%;
+   height: auto;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.06);
+  }
