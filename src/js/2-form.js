@@ -30,7 +30,7 @@ const feedbackForm = {
   email: email,
   message: message,}
   event.preventDefault();
-if (feedbackForm.email!=="" & feedbackForm.message!==""){
+if (feedbackForm.email!=="" && feedbackForm.message!==""){
 console.log(feedbackForm);
 localStorage.removeItem('feedback-form-state');
 form.reset();
